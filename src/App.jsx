@@ -1,10 +1,11 @@
-import Header from "./Header";
+import Header from "./Header/Header";
 
 const App = () => {
   return(
     <>
+
     <Header/>
-    <h1>e</h1>
+    
     </>
   )
 }

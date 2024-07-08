@@ -13,7 +13,7 @@ export const HeaderNav = styled.header`
 display: flex;
 gap: 70px;
 padding: 30px;
-margin-left: 50px;
+justify-content:center;
 `
 export const Nav = styled.nav`
 background-color: ${Cores.branco};
@@ -45,4 +45,33 @@ height: 60px;
 width: 160px;
 padding: 25px;
 `
+
+export const ContainerNav = styled.div`
+height:100vh;
+width:300px;
+position:fixed;
+top:0;
+right:0;
+display:none;
+background-color:#006666;
+box-shadow:0 0 20px 3px;
+z-index:80;
+animation: mostrarnavbar .4s;
+@keyframes mostrarnavbar {
+    from {
+        opacity: 0;
+        width:0;
+    } to {
+        opacity: 1;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:770px){
+   display: flex;
+  }
+`
+export const Content = styled.div`
+margin-top:100px`
+
 

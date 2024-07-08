@@ -19,3 +19,68 @@ a{
     color: #006666;
     font-size: 25px;
 }
+
+
+
+.svg-fechar{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .svg-fechar:hover{
+    transform: rotate(-80deg);
+  }
+  
+  
+.svg-fechar{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .svg-fechar:hover{
+    transform: rotate(-80deg);
+  }
+  
+  
+  .svg-abrir{
+    width: 30px;
+    height: 30px;
+    color: #006666;
+    cursor: pointer;
+    transition: 0.5s;
+    display: none;
+  }
+
+ 
+  
+  h1{
+    color: aliceblue;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  @media screen and (max-width:770px){
+    .svg-abrir{
+        display: flex;
+    }
+    a{
+        display: none;
+    }
+
+    body{
+        background-image: none;
+        background-color: #f5f5f5; 
+        transition: 1s;
+    }
+  }
