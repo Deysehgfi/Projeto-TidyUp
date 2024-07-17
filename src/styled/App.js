@@ -1,10 +1,12 @@
 import { styled } from "styled-components";
 
 export const Cores = {
-    cianoEcuro:'#006666',
+    cianoMedio:'#006666',
     cianoClaro:'#008584',
     branco:'#f5f5f5',
-    cinza: '#cccccc'
+    cinza: '#cccccc',
+    cianoEscuro:'#005555',
+    cianoExtraEscuro: '#004141'
 
 
 }
@@ -75,3 +77,47 @@ export const Content = styled.div`
 margin-top:100px`
 
 
+
+
+
+//Footer -------------------------------------------
+export const Rodape = styled.footer`
+background-color: ${Cores.cianoClaro};
+height: 300px;
+width: 100;
+padding: 15px;
+
+`
+
+export const BoxFooter = styled.div`
+background-color: ${Cores.cianoEscuro};
+height: 250px;
+border-radius: 15px;
+`
+export const BoxNav = styled.div`
+
+`
+export const SocialMidia = styled.div`
+background-color: ${Cores.cianoExtraEscuro};
+width: 672px;
+height: 80px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+
+`
+export const ImgIconsSocial = styled.img`
+height: 45px;
+padding: 10px;
+`
+
+export const TextFooter = styled.h3`
+color: ${Cores.branco};
+display: flex;
+text-align: center;
+font-size: 20px;
+`
+/* 
+export const LinksSocialMidia = styled.a`
+color: ${Cores.branco};
+` */
