@@ -1,10 +1,15 @@
 import ImageHome from '../image/Ilustration/img-LoginHome.png'
-import {ImgHomeStyle } from '../styled/Login'
+import {ImgHomeStyle, ContainerLogin, Section1, TituloContainer } from '../styled/Login'
 
 const Login = () => {
     return(
         <>
-        <ImgHomeStyle  src={ImageHome} alt="Dois colaboradoes da limpeza higienizando o ambiente." />
+        <Section1> 
+            <ImgHomeStyle  src={ImageHome} alt="Dois colaboradoes da limpeza higienizando o ambiente." />
+            <ContainerLogin>
+                <TituloContainer>Login</TituloContainer>
+            </ContainerLogin>
+        </Section1>
         </>
     )
 }
